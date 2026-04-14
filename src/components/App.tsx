@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import './App.css';
+import { SettingsPanel } from "./settingsPanel";
+import type { SettingsStateType } from "./settingsPanel";
 
 const fetchMarkdown = async (url: string): Promise<string> => {
   const response = await fetch(url);
@@ -16,8 +18,17 @@ type FetchState =
   | { status: "success"; content: string }
   | { status: "error"; message: string };
 
-function App() {
+export const App = () => {
   const [fetchState, setFetchState] = useState<FetchState>({ status: "idle" });
+  const [settignsState, setSettingsState] = useState<SettingsStateType>({
+    fontSize: "m",
+    theme: "dark"
+  });
+
+  const viewerClassNames = "markdown-viewer" +
+    ` font-${settignsState.fontSize}` +
+    ` theme-${settignsState.theme}`
+  ;
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -37,12 +48,16 @@ function App() {
 
   return (
     <>
-      {fetchState.status === "idle" && <p>No Markdown File Provided</p>}
-      {fetchState.status === "loading" && <p>Loading...</p>}
-      {fetchState.status === "error" && <p>Error: {fetchState.message}</p>}
-      {fetchState.status === "success" && <Markdown remarkPlugins={[remarkGfm]}>{fetchState.content}</Markdown>}
+      <SettingsPanel 
+        settignsState={settignsState}
+        setSettingsState={setSettingsState}
+      />
+      <div className={viewerClassNames}>
+        {fetchState.status === "idle" && <p>No Markdown File Provided</p>}
+        {fetchState.status === "loading" && <p>Loading...</p>}
+        {fetchState.status === "error" && <p>Error: {fetchState.message}</p>}
+        {fetchState.status === "success" && <Markdown remarkPlugins={[remarkGfm]}>{fetchState.content}</Markdown>}
+      </div>
     </>
   )
 }
-
-export default App
