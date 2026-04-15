@@ -47,7 +47,7 @@ export const App = () => {
   }, []);
 
   return (
-    <>
+    <div className={`viewport theme-${settignsState.theme}`}>
       <SettingsPanel 
         settignsState={settignsState}
         setSettingsState={setSettingsState}
@@ -58,6 +58,6 @@ export const App = () => {
         {fetchState.status === "error" && <p>Error: {fetchState.message}</p>}
         {fetchState.status === "success" && <Markdown remarkPlugins={[remarkGfm]}>{fetchState.content}</Markdown>}
       </div>
-    </>
+    </div>
   )
 }
