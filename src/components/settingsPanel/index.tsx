@@ -46,6 +46,7 @@ export const SettingsPanel = ({settignsState, setSettingsState}: settingsProps) 
             onClick={() => onFontSizeChange("l")}
             className={settignsState.fontSize === "l" ? "active": "inactive"}
           >Large</button>
+          <label>{"|"}</label>
         </div>
       }
       <div>
