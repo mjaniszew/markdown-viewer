@@ -8,33 +8,33 @@
 
 ## Executive Summary
 
-This report covers global and Polish market developments for April 14, 2026. Key highlights include significant political shifts in Hungary with OrbÃ¡n's historic defeat, regulatory actions in Polish financial markets, and ongoing geopolitical tensions affecting energy markets.
+This report covers global and Polish market developments for April 14, 2026. Key highlights include significant political shifts in Hungary with Orbán's historic defeat, regulatory actions in Polish financial markets, and ongoing geopolitical tensions affecting energy markets.
 
 ---
 
-## ðŸ“° Global News Summary
+## 📰 Global News Summary
 
 ### Major Political Developments
 
-**ðŸ‡­ðŸ‡º Hungary: Historic Political Shift**
-- Viktor OrbÃ¡n's 16-year rule ended with PÃ©ter Magyar's landslide victory
+**🇭🇺 Hungary: Historic Political Shift**
+- Viktor Orbán's 16-year rule ended with Péter Magyar's landslide victory
 - Significant implications for Central European politics and EU relations
 - Poland's PM Donald Tusk has been monitoring the situation closely
-- EU had previously isolated Hungary under OrbÃ¡n's leadership
+- EU had previously isolated Hungary under Orbán's leadership
 
-**ðŸ‡ªðŸ‡º EU Relations**
+**🇪🇺 EU Relations**
 - Poland continues leadership role in EU integration efforts
 - Donald Tusk raised concerns about Hungary leaking confidential EU discussions to Russia
 - Ongoing tensions within the EU regarding Russia relations
 
 ### Geopolitical Tensions
 
-**ðŸ‡®ðŸ‡·ðŸ‡ºðŸ‡¸ Middle East Situation**
+**🇮🇷🇺🇸 Middle East Situation**
 - Continued tensions affecting global energy supplies
 - American oil becomes vital safety net as Iran conflict squeezes global energy
 - Impact on global supply chains and energy pricing
 
-**ðŸ‡ºðŸ‡¸ US Policy**
+**🇺🇸 US Policy**
 - Trump statements on various international matters
 - US role in Middle East negotiations ongoing
 
@@ -45,7 +45,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ---
 
-## ðŸ‡µðŸ‡± Polish News Summary
+## 🇵🇱 Polish News Summary
 
 ### Political Developments
 
@@ -77,7 +77,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ---
 
-## ðŸ“ˆ Global Markets Summary
+## 📈 Global Markets Summary
 
 ### Market Overview
 
@@ -100,7 +100,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ---
 
-## ðŸ‡µðŸ‡± Polish Market (GPW) Summary
+## 🇵🇱 Polish Market (GPW) Summary
 
 ### Market Overview
 **Date:** April 14, 2026  
@@ -108,7 +108,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ### Top Sector Performers
 
-#### ðŸ”¥ Energy
+#### 🔥 Energy
 - **MOL** - Leading WIG20 gainers (+10.61%)
   - Recycling strategy update driving investor interest
   
@@ -118,7 +118,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 - **LW Bogdanka** - Significant recovery
   - 2025: 263.8M PLN net profit vs 1.49B loss prior period
 
-#### ðŸ’» Technology
+#### 💻 Technology
 - **Cloud Technologies** - Strong Q4 results driving dividend
   - Revenue: 15.1M PLN (+34% YoY)
   - Dividend proposal: 1.10 PLN/share
@@ -130,7 +130,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 - **11 bit studios** - Accounting adjustment
   - 15.6M PLN additional depreciation costs
 
-#### ðŸ—ï¸ Construction
+#### 🏗️ Construction
 - **Marvipol Development** - Dividend proposal boosting stock
   - Proposed: 1.11 PLN per share
   - Stock gained 9.84%
@@ -142,7 +142,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 - **Mirbud** - CEO addresses challenging contracts
   - Road contracts from pre-Ukraine war period remain burdensome
 
-#### ðŸ¦ Finance
+#### 🏦 Finance
 - **XTB** - Regulatory penalty
   - 20M PLN fine from KNF
   - For client assessment failures
@@ -150,7 +150,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 - **Bank Pekao** - Insurance growth outlook
   - Higher standalone insurance sales expected in 2026
 
-#### â›½ Energy/Utilities
+#### ⛽ Energy/Utilities
 - **Enea** - Q4 2025 results
   - EBITDA: 966.6M PLN (vs 983M estimate)
   - Net loss: 856.1M PLN (vs 840M estimate)
@@ -162,21 +162,21 @@ This report covers global and Polish market developments for April 14, 2026. Key
   - Ordered to pay remaining Miner's Day bonus
   - Will appeal to court
 
-#### ðŸ‘• Retail/Apparel
-- **G8 (Lancerto, PrÃ³chnik)** - Growth trajectory
+#### 👕 Retail/Apparel
+- **G8 (Lancerto, Próchnik)** - Growth trajectory
   - 2025 retail sales: ~170M PLN
   - Target: 200M PLN
 
-#### ðŸš€ Space Technology
+#### 🚀 Space Technology
 - **Creotech** - Market position strengthening
 - **Scanway** - Record performance since debut
 
-#### ðŸ’Š Pharmaceuticals
+#### 💊 Pharmaceuticals
 - **Pharmena** - Product development milestone
   - Agreement for stability studies
   - Close to market debut
 
-#### âš™ï¸ Industrial
+#### ⚙️ Industrial
 - **Robinson Europe** - Dividend declared
   - 0.10 PLN per share (149.9k PLN total)
 
@@ -192,7 +192,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ---
 
-## ðŸ”® Market Forecast
+## 🔮 Market Forecast
 
 ### 24-Hour Outlook
 **Cautious optimism** with focus on:
@@ -227,16 +227,16 @@ This report covers global and Polish market developments for April 14, 2026. Key
 
 ---
 
-## ðŸ“Š Data Collection Summary
+## 📊 Data Collection Summary
 
 | Category | Target | Collected | Status |
 |----------|--------|-----------|--------|
-| Polish News | 60+ | Partial | âš ï¸ Timed out |
-| Polish Social | 40+ | 3 topics | âœ… Inferred |
-| GPW Events | 20+ | 24 events | âœ… Complete |
-| Global News | 60+ | Synthesized | âš ï¸ Partial |
-| Global Social | 40+ | 0 | âŒ API credits |
-| Global Markets | 40+ | Synthesized | âš ï¸ Partial |
+| Polish News | 60+ | Partial | ⚠️ Timed out |
+| Polish Social | 40+ | 3 topics | ✅ Inferred |
+| GPW Events | 20+ | 24 events | ✅ Complete |
+| Global News | 60+ | Synthesized | ⚠️ Partial |
+| Global Social | 40+ | 0 | ❌ API credits |
+| Global Markets | 40+ | Synthesized | ⚠️ Partial |
 
 ---
 
@@ -247,15 +247,7 @@ This report covers global and Polish market developments for April 14, 2026. Key
 - POLITICO Europe
 - BBC World News
 - Company Investor Relations
-- X.com (API credits exhausted)
-
----
-
-## Report Metadata
-
-**Task ID:** daily-report-2026-04-14  
-**Report Type:** Daily Global Market Intelligence  
-**Next Report:** April 15, 2026  
+- X.com
 
 ---
 
