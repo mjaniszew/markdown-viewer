@@ -1,17 +1,14 @@
-import React, { useState } from "react";
-
-export type SettingsStateType = {
-  fontSize: string;
-  theme: string;
-}
+import React, { useState, useContext } from "react";
+import type { SettingsStateType } from "../../types";
+import { SettingsContext } from "../../context/settingsContext";
 
 interface settingsProps {
-  settignsState: SettingsStateType
   setSettingsState: React.Dispatch<React.SetStateAction<SettingsStateType>>
 }
 
-export const SettingsPanel = ({settignsState, setSettingsState}: settingsProps) => {
+export const SettingsPanel = ({setSettingsState}: settingsProps) => {
   const [settingsOpen, setSettingsOpen] = useState<boolean>(false);
+  const settingsState = useContext(SettingsContext);
   const onFontSizeChange = (fontSize: string) => {
     setSettingsState(prev => ({...prev, fontSize}))
   }
@@ -27,24 +24,24 @@ export const SettingsPanel = ({settignsState, setSettingsState}: settingsProps) 
           <label>Theme:</label>
           <button
             onClick={() => onThemeChange("light")}
-            className={settignsState.theme === "light" ? "active": "inactive"}
+            className={settingsState.theme === "light" ? "active": "inactive"}
           >Light</button>
           <button
             onClick={() => onThemeChange("dark")}
-            className={settignsState.theme === "dark" ? "active": "inactive"}
+            className={settingsState.theme === "dark" ? "active": "inactive"}
           >Dark</button>
           <label>Font Size:</label>
           <button
             onClick={() => onFontSizeChange("s")}
-            className={settignsState.fontSize === "s" ? "active": "inactive"}
+            className={settingsState.fontSize === "s" ? "active": "inactive"}
           >Small</button>
           <button
             onClick={() => onFontSizeChange("m")}
-            className={settignsState.fontSize === "m" ? "active": "inactive"}
+            className={settingsState.fontSize === "m" ? "active": "inactive"}
           >Medium</button>
           <button
             onClick={() => onFontSizeChange("l")}
-            className={settignsState.fontSize === "l" ? "active": "inactive"}
+            className={settingsState.fontSize === "l" ? "active": "inactive"}
           >Large</button>
           <label>{"|"}</label>
         </div>
